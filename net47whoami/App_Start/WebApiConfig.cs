@@ -19,6 +19,14 @@ namespace net47whoami
                 routeTemplate: "api/{controller}/{id}",
                 defaults: new { id = RouteParameter.Optional }
             );
+
+            /*
+            config.Routes.MapHttpRoute(
+                name: "Healthz",
+                routeTemplate: "api/{controller}/{id}",
+                defaults: new { id = RouteParameter.Optional }
+            );
+            */
         }
     }
 }
